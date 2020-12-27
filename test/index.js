@@ -1,7 +1,7 @@
 import { resolve } from 'path';
 import { existsSync, rmSync } from 'fs';
 
-import { suite } from 'uvu';
+import { test } from 'uvu';
 import * as assert from 'uvu/assert';
 
 import { copy } from '../lib/index.js';
@@ -35,3 +35,5 @@ test('All files were copied', () => {
     ),
   );
 });
+
+test.run()
