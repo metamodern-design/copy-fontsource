@@ -1,6 +1,6 @@
 {
   "name": "@metamodern/copy-fontsource",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Automagically copy font files from @fontsource/* packages in your dependencies",
   "author": "Daniel C. Narey <os@metamodern.design>",
   "license": "ISC",
